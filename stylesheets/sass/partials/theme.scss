@@ -1,0 +1,320 @@
+//USP
+.campaign_menu_bottom .container .campaign_image {
+  height: 30px;
+  border-bottom: 1px solid #ddd; 
+}
+
+
+//MAIN MENU
+.main-menu {
+    background: #ffffff;
+    color: $accent;
+}
+
+.gif-kerst, .image, .lookbook, .tussentitel{
+    image-rendering: optimizeSpeed; 
+    image-rendering: -webkit-optimize-contrast; 
+}
+
+.gif-kerst, .image, .lookbook, .tussentitel, .exclusive-nl, .exclusive-fr, .exclusive-en, .groeneprijs-nl, .groeneprijs-fr, .groeneprijs-en{
+    image-rendering: -moz-crisp-edges; 
+    image-rendering: -o-crisp-edges; 
+    image-rendering: optimize-contrast; 
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+
+
+//CONTENT ROW
+.content-row,
+.content-block {
+    &.z-shadow {
+        background: #ffffff;
+        border-top: 1px solid #dddddd;
+        box-shadow: 0 14px 3px -10px rgba(0, 0, 0, .04), 0 -12px 3px -10px rgba(0, 0, 0, .04);
+    }
+            .product-container{
+            &.t-shirts {
+                &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 85px;
+                height: 85px;
+                left: 4%;
+                top: 15px;
+                 background: url("//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/2plus1.png"); background-size: cover;
+
+                }
+            }
+        }
+
+}
+    .product-container {
+        &.groeneprijs-nl, &.groeneprijs-fr, &.groeneprijs-en {
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 84px;
+                height: 42px;
+                left: 4%;
+                top: 175px;
+
+            }
+            .bottom-container {
+                .price-tag .new-price {
+                    color: $green;
+                }
+            }
+        }
+        &.groeneprijs-nl:before {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/groen_nl.jpg); background-size: cover;
+        }
+        &.groeneprijs-fr:before {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/groen_fr.jpg); background-size: cover;
+        }
+         &.groeneprijs-en:before {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/groen_en.jpg); background-size: cover;
+        }
+
+        &.sold-out-nl::before,
+        &.sold-out-fr::before,
+        &.sold-out-en::before {
+            background: rgba(0, 0, 0, 0.4);
+            color: #ffffff;
+            font-family: "Open Sans";
+            font-size: 1.5em;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 100;
+            text-align: center;
+            text-rendering: optimizeLegibility;
+            text-transform: uppercase;
+            width: 100%!important;
+            @include tablet-landscape {
+                font-size: 2em;
+            }
+            @include tablet-portrait {
+                font-size: 1.5em;
+            }
+        }
+        &.sold-out-nl::before {
+            content: "Uitverkocht";
+        }
+        &.sold-out-fr::before {
+            content: "Épuisé";
+        }
+        &.sold-out-en::before {
+            content: "Sold Out";
+        }
+
+        &.soon-nl::before,
+        &.soon-fr::before,
+        &.soon-en::before {
+            background: rgba(255, 255, 255, 0.4);
+            font-family: "Open Sans";
+            line-height: 40px;
+            font-size: 2.5em;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 100;
+            text-align: center;
+            text-rendering: optimizeLegibility;
+            text-transform: uppercase;
+            width: 100%!important;
+            @include tablet-landscape {
+                font-size: 2em;
+            }
+            @include tablet-portrait {
+                font-size: 1.5em;
+            }
+        }
+        &.soon-nl::before {
+            content: "Binnenkort beschikbaar";
+        }
+        &.soon-fr::before {
+            content: "Disponible bientôt";
+        }
+        &.soon-en::before {
+            content: "Available soon";
+        }
+        &.exclusive-nl::after,
+        &.exclusive-fr::after,
+        &.exclusive-en::after {
+            content: "";
+            text-align: right;
+        }
+        &.exclusive-nl::after {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/exclusief-nl.png);
+            background-size: contain;
+        }
+        &.exclusive-fr::after {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/exclusief-fr.png);
+            background-size: contain;
+        }
+        &.exclusive-en::after {
+            background: url(//static.asadventure.com/includes/landingpage/2015_kerstfolder/images/overlay/exclusief-en.png);
+            background-size: contain;
+        }
+        @include mobile {
+            border-left: 1px solid #DDDDDD;
+            border-bottom: 1px solid #DDDDDD;
+        }
+    }
+
+//GENERAL LINK
+.contentlink {
+    color: inherit;
+}
+
+//BOTTOM CONTAINER
+.bottom-container {
+    .price-tag {
+        .special {
+            background: $green;
+            color: #fff;
+            font-size: .75em;
+            line-height: 1.5;
+            text-transform: uppercase;
+            @include tablet-landscape {
+                font-size: .5em;
+            }
+        }
+        .barred-price {
+            font-size: .7em;
+            line-height: 1;
+            text-decoration: line-through;
+        }
+        .new-price {
+            color: $red;
+            font-size: 1.6em;
+            font-weight: 700 !important;
+            line-height: 1;
+        }
+        .currency {
+            font-size: .6em;
+        }
+    }
+    h3 {
+        font-size: 1em;
+        font-weight: 600 !important;
+        line-height: 1.2em;
+        @include tablet-landscape {
+            font-size: .8em;
+        }
+    }
+    .product-category {
+        font-weight: 100;
+    }
+    .swatch {
+        //border: 1px solid #9b9b9b;
+        border-radius: 50%;
+    }
+
+    .swatch-text {
+        border-radius: 50%;
+    }
+    .logo-container {
+        border-top: 2px dotted #ddd;
+    }
+}
+    
+@media only screen and(max-width: 979px){ 
+    .product-container {
+        &.groeneprijs-nl, &.groeneprijs-fr, &.groeneprijs-en {
+            &:before {
+                top:12px;
+                background-size: 70%;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1199px) {
+    .title-container{
+           margin-left: 550px;
+    }
+
+    .head {
+    font-size: 3em;
+    line-height: 48px;
+}
+}
+
+@media (max-width: 1199px) {
+    .gif {
+        margin-top: 11px;
+        height: 397px;
+    }
+
+    .gif-kerst {
+        width: 940px;
+    }
+
+
+}
+
+@media (max-width: 979px) {
+    .title-container {
+    margin-left: 280px;
+    width: 550px;
+    }
+
+    .head {
+    font-size: 1.8em;
+    line-height: 32px;
+    }
+
+    .gif {
+        margin-top: 18px;
+        height: 302px;
+    }
+
+    .gif-kerst{
+        width: 724px;
+    }
+}
+
+@media (max-width: 767px) {
+    .gif {
+        background: url("http://static.asadventure.com/includes/banner/category-page/151202_kerstfolder/GIF.jpeg");
+        background-size:contain;
+        background-repeat:no-repeat;
+    }
+    .title-container {
+    margin-left: 25%;
+    width: 75%;
+    
+    }
+
+    .main{
+        display:none;
+    }
+
+    .head {
+        font-size: 1.3em;
+        line-height: 22px;
+    }
+    .sub {
+        font-size: 0.6em;
+    }
+
+    img.golf    {
+        width: 43px;
+    }
+
+    img.jaar   {
+        width: 70px;
+    }
+
+    .gif{
+        margin: 0;
+        height: 47vw;
+    }
+    .gif-kerst {
+        width: 120%; 
+    }
+
+}
+

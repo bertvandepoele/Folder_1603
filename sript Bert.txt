@@ -1,0 +1,52 @@
+cd ~/LP_folder_1512/html/
+wget -O 2010_NL.html "http://localhost:8888/folder/index.php/nl/alles"
+<<<<<<< HEAD
+wget -O 1841_NL.html "http://localhost:8888/folder/index.php/nl/gadgets1"
+wget -O 2015_NL.html "http://localhost:8888/folder/index.php/nl/gadgets2"
+wget -O 2012_NL.html "http://localhost:8888/folder/index.php/nl/bike	"
+wget -O 2017_NL.html "http://localhost:8888/folder/index.php/nl/travel"
+wget -O 2016_NL.html "http://localhost:8888/folder/index.php/nl/winter"
+=======
+wget -O 1841_NL.html "http://localhost:8888/folder/index.php/nl/gadgets1”
+wget -O 2015_NL.html "http://localhost:8888/folder/index.php/nl/gadgets2”
+wget -O 2012_NL.html "http://localhost:8888/folder/index.php/nl/bike	“
+wget -O 2017_NL.html "http://localhost:8888/folder/index.php/nl/travel”
+wget -O 2016_NL.html "http://localhost:8888/folder/index.php/nl/winter”
+>>>>>>> e40e567cb94d0e91701fa983d1078c4dac434561
+wget -O 2011_NL.html "http://localhost:8888/folder/index.php/nl/dames"
+wget -O 2013_NL.html "http://localhost:8888/folder/index.php/nl/heren"
+wget -O 2014_NL.html "http://localhost:8888/folder/index.php/nl/junior"
+wget -O 2010_EN.html "http://localhost:8888/folder/index.php/en/alles"
+<<<<<<< HEAD
+wget -O 1841_EN.html "http://localhost:8888/folder/index.php/en/gadgets1"
+wget -O 2015_EN.html "http://localhost:8888/folder/index.php/en/gadgets2"
+wget -O 2012_EN.html "http://localhost:8888/folder/index.php/en/bike"
+wget -O 2017_EN.html "http://localhost:8888/folder/index.php/en/travel"
+wget -O 2016_EN.html "http://localhost:8888/folder/index.php/en/winter"
+=======
+wget -O 1841_EN.html "http://localhost:8888/folder/index.php/en/gadgets1”
+wget -O 2015_EN.html "http://localhost:8888/folder/index.php/en/gadgets2”
+wget -O 2012_EN.html "http://localhost:8888/folder/index.php/en/bike”
+wget -O 2017_EN.html "http://localhost:8888/folder/index.php/en/travel”
+wget -O 2016_EN.html "http://localhost:8888/folder/index.php/en/winter”
+>>>>>>> e40e567cb94d0e91701fa983d1078c4dac434561
+wget -O 2011_EN.html "http://localhost:8888/folder/index.php/en/dames"
+wget -O 2013_EN.html "http://localhost:8888/folder/index.php/en/heren"
+wget -O 2014_EN.html "http://localhost:8888/folder/index.php/en/junior"
+wget -O 2010_FR.html "http://localhost:8888/folder/index.php/fr/alles"
+<<<<<<< HEAD
+wget -O 1841_FR.html "http://localhost:8888/folder/index.php/fr/gadgets1"
+wget -O 2015_FR.html "http://localhost:8888/folder/index.php/fr/gadgets2"
+wget -O 2012_FR.html "http://localhost:8888/folder/index.php/fr/bike"
+wget -O 2017_FR.html "http://localhost:8888/folder/index.php/fr/travel"
+wget -O 2016_FR.html "http://localhost:8888/folder/index.php/fr/winter"
+=======
+wget -O 1841_FR.html "http://localhost:8888/folder/index.php/fr/gadgets1”
+wget -O 2015_FR.html "http://localhost:8888/folder/index.php/fr/gadgets2”
+wget -O 2012_FR.html "http://localhost:8888/folder/index.php/fr/bike”
+wget -O 2017_FR.html "http://localhost:8888/folder/index.php/fr/travel”
+wget -O 2016_FR.html "http://localhost:8888/folder/index.php/fr/winter”
+>>>>>>> e40e567cb94d0e91701fa983d1078c4dac434561
+wget -O 2011_FR.html "http://localhost:8888/folder/index.php/fr/dames"
+wget -O 2013_FR.html "http://localhost:8888/folder/index.php/fr/heren"
+wget -O 2014_FR.html "http://localhost:8888/folder/index.php/fr/junior"
